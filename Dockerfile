@@ -1,7 +1,7 @@
 FROM node:lts-slim
 
 EXPOSE 3000
-WORKDIR /node-webapp
+WORKDIR /home/rindiano/node-webapp
 RUN npm install
 
 COPY . /node-webapp
