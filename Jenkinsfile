@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git Clone') {
             steps {
-                git credentialsId: 'Github', url: 'https://github.com/batch8-ricky/node-webapp.git'
+                git credentialsId: 'GitHub', url: 'https://github.com/batch8-ricky/node-webapp.git'
             }
         }
         
